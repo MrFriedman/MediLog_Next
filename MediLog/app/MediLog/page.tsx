@@ -1,8 +1,11 @@
+import Menu from '@/components/navigation/Menu'
 import React from 'react'
 
 function page() {
   return (
-    <div className="bg-white p-8 rounded-lg shadow-lg mb-8" id="medilog-section">
+    <div className="container mx-auto p-4 border border-white">
+      <Menu />
+      <div>
         <h2 className="text-3xl text-black font-bold mb-6">
           MediLog
         </h2>
@@ -82,6 +85,7 @@ function page() {
           </div>
         </div>
       </div>
+    </div>
   )
 }
 

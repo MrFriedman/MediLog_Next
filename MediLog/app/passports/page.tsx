@@ -1,10 +1,14 @@
 import UserProfileCard from '@/components/navigation/Cards/UserProfileCard'
+import Menu from '@/components/navigation/Menu'
 import React from 'react'
 
 function page() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <UserProfileCard />
+    <div className="container mx-auto p-4 border border-white">
+      <Menu />
+      <div>
+        <UserProfileCard />
+      </div>
     </div>
   )
 }
