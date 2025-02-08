@@ -1,11 +1,9 @@
-import Menu from '@/components/navigation/Menu'
 import React from 'react'
 
 function page() {
   return (
     <div className="container mx-auto p-4 border border-white">
-      <Menu />
-      <div className="bg-pink-500 p-4">
+      <div className="bg-white p-4">
         <h2 className="text-3xl text-black font-bold mb-6">
           MediLog
         </h2>

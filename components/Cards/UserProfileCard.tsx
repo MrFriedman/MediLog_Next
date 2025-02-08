@@ -7,7 +7,7 @@ function UserProfileCard() {
   return (
     <div className="bg-white p-6 rounded-lg shadow-lg">
       <img alt="A detailed medical passport with patient information and medical history" className="w-full h-48 object-cover rounded-t-lg" src="https://placehold.co/300x200" />
-      <h2 className="text-xl font-bold mt-4">
+      <h2 className="text-xl font-bold mt-4 text-black">
         John Doe
       </h2>
       <p className="mt-2 text-black">
